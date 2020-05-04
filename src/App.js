@@ -1,12 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { JobSearch } from './JobSearch';
+
+const jobSearch = new JobSearch('#search-form', '.result-container', '.loading-element');
+jobSearch.setCountryCode();
+jobSearch.configureFormListener();
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
