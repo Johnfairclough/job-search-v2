@@ -4,5 +4,9 @@ export const jobTemplate = (job, currency) => `
   <h5 class="animated fadeIn job-location">${job.location.display_name}</h5>
   <p class="animated fadeIn job-description">${job.description}</p>
   <a class="animated fadeIn view-job" href="${job.redirect_url}" target="_blank">View Job</a>
+
+  <button class="top" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>Jump to the top</button>
+
+
   </div>
 `;

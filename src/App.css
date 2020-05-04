@@ -23,13 +23,15 @@ input {
 }
 
 .logo-two {
-  margin-left: 60px;
+  margin-left: 42px;
   font-size: 27px;
   margin-top: -18px;
+  color: #504f60;
 }
 
 .card {
-  margin: 25px 0;
+padding-bottom: 25px;
+width: 600px;
 }
 
 .form-control {
@@ -67,6 +69,7 @@ input {
   top: 240px;
   left: 850px;
 }
+
 /* Results */
 .results {
   width: 600px;
@@ -82,7 +85,7 @@ input {
 
 .animated {
   padding: 5px;
-  margin: 15px;
+  margin-left: 15px;
   border-radius: 2px;
   background: #f2f2f2;
   border: 1px solid #4285f4;
@@ -234,13 +237,39 @@ body.dark .mailto:hover{
 }
 
 .top {
-  color: red;
   position: absolute;
   position: fixed;
   bottom: 20vh;
   right: 25vh;
+  margin-top: 1.5px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #504f60;
+  transition: 0.3s ease-in-out;
+  background: none;
+  border: none;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  }
 
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
+
+
+.top:hover {
+  transition: 0.3s ease-in-out;
+  color: #72a4f7;
+}
+
+
+
 .top a{
   text-decoration: none;
 }
