@@ -31,8 +31,9 @@ export class JobSearch {
     event.preventDefault();
     this.resultsContainer.innerHTML = '';
     const { search, location, distance, min, max } = extractFormData(this.searchForm);
+
     this.startLoading();
-    fetch(`https://api.adzuna.com/v1/api/jobs/gb/search/2?app_id=fe8c748e&app_key=20c3e73a59479724e90591efe9cdfa7d&results_per_page=10000&what=${search}&where=${location}&distance=${distance}&salary_min=${min}&salary_max=${max}`)
+    fetch(`https://api.adzuna.com/v1/api/jobs/gb/search/2?app_id=fe8c748e&app_key=20c3e73a59479724e90591efe9cdfa7d&results_per_page=10000&what=${search}&where=${location}&distance=${distance}&sort_by=salary&salary_min=${min}&salary_max=${max}`)
       .then(response => response.json())
       .then(({ results }) => {
         this.stopLoading();
