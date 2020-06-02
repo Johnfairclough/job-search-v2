@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/job-search-v2/static/css/main.2e42da8d.chunk.css",
+    "main.js": "/job-search-v2/static/js/main.0c405ea3.chunk.js",
+    "main.js.map": "/job-search-v2/static/js/main.0c405ea3.chunk.js.map",
+    "runtime-main.js": "/job-search-v2/static/js/runtime-main.3fa685f3.js",
+    "runtime-main.js.map": "/job-search-v2/static/js/runtime-main.3fa685f3.js.map",
+    "static/js/2.ba250bb1.chunk.js": "/job-search-v2/static/js/2.ba250bb1.chunk.js",
+    "static/js/2.ba250bb1.chunk.js.map": "/job-search-v2/static/js/2.ba250bb1.chunk.js.map",
+    "index.html": "/job-search-v2/index.html",
+    "precache-manifest.6c2371d231db820ff2afe706cae24b0d.js": "/job-search-v2/precache-manifest.6c2371d231db820ff2afe706cae24b0d.js",
+    "service-worker.js": "/job-search-v2/service-worker.js",
+    "static/css/main.2e42da8d.chunk.css.map": "/job-search-v2/static/css/main.2e42da8d.chunk.css.map",
+    "static/js/2.ba250bb1.chunk.js.LICENSE.txt": "/job-search-v2/static/js/2.ba250bb1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fa685f3.js",
+    "static/js/2.ba250bb1.chunk.js",
+    "static/css/main.2e42da8d.chunk.css",
+    "static/js/main.0c405ea3.chunk.js"
+  ]
+}
